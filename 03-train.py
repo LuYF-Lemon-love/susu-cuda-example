@@ -41,7 +41,7 @@ class AddModelFunction(Function):
         return (grad_output, grad_output, None)
 
 # 定义模型
-n = 100
+n = 1000
 model = AddModel(n)
 # 将模型中所有参数拷贝到GPU端
 model.to(device="cuda:0")

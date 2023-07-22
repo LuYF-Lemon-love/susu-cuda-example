@@ -46,5 +46,5 @@ python 03-train.py
 
 [1] [PyTorch自定义CUDA算子教程与运行时间分析](https://godweiyang.com/2021/03/18/torch-cpp-cuda/)
 [2] [详解PyTorch编译并调用自定义CUDA算子的三种方式](https://godweiyang.com/2021/03/21/torch-cpp-cuda-2/)
-[3] []()
+[3] [三分钟教你如何PyTorch自定义反向传播](https://godweiyang.com/2021/03/24/torch-cpp-cuda-3/)
 [4] [NN-CUDA-Example](https://github.com/godweiyang/NN-CUDA-Example)

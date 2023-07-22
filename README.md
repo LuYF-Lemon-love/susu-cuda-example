@@ -26,16 +26,21 @@ pip install ninja -i https://pypi.tuna.tsinghua.edu.cn/simple
 方法一，使用即时编译（ninja）:
 
 ```shell
-python main.py
+python 01-just-in-time.py
 ```
 
 方法二，使用 Setuptools 编译:
 
 ```shell
 python setup.py install
-python setuptools.py
+python 02-setuptools.py
 ```
 
+## 训练模型
+
+```shell
+python 03-train.py
+```
 
 ## 参考
 

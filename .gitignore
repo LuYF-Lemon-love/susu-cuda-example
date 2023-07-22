@@ -1,1 +1,4 @@
 env/
+add2.egg-info/
+dist/
+build/

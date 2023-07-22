@@ -41,13 +41,13 @@ class AddModelFunction(Function):
         return (grad_output, grad_output, None)
 
 # 定义模型
-n = 1000
+n = 1000000
 model = AddModel(n)
 # 将模型中所有参数拷贝到GPU端
 model.to(device="cuda:0")
 # 定义优化器
 opt = torch.optim.SGD(model.parameters(), lr=0.01)
-for epoch in range(500):
+for epoch in range(50000):
     # 清空优化器缓存
     opt.zero_grad()
     # 前向传播
